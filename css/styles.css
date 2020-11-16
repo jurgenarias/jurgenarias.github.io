@@ -7703,9 +7703,9 @@ button.bg-black:focus {
 }
 
 .mt-4,
-.my-4 {
+/* .my-4 {
   margin-top: 1.5rem !important;
-}
+} */
 
 .mr-4,
 .mx-4 {
@@ -7715,6 +7715,7 @@ button.bg-black:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
+  border-width: 5px;
 }
 
 .ml-4,
@@ -10396,4 +10397,16 @@ body{
 
 #linkedin {
   border-radius: 5%;
+}
+
+.image-container{
+  text-align: center;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
