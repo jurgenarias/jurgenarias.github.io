@@ -10352,6 +10352,10 @@ body {
   padding: 30px;
 }
 
+.webapp{
+  border-radius:40px;
+}
+
 .linkedin{
   padding:20px;
 }
